@@ -53,10 +53,7 @@ class CalculatorClass:
           >>> calc_instance.multiply(2.0)
           72.0
         """
-        if not isinstance(num, float):
-            raise TypeError("'num' must be a float.")
-        else:
-            self.memory *= num
+        self.memory *= num
         return self.memory
 
     def divide(self, num: float) -> float:
