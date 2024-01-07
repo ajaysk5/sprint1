@@ -48,8 +48,6 @@ class CalculatorClass:
 
         Parameters:
         - num (float): The number to multiply the memory by.
-        Raises:
-         - TypeError: If 'num' is not a float.
         For example:
           >>> calc_instance = CalculatorClass(36)
           >>> calc_instance.multiply(2.0)
